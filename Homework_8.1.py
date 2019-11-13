@@ -7,7 +7,7 @@ elif mood=="nervous":
 elif mood=="sad":
     print("Cheer up, mate!")
 elif mood=="excited":
-    print("Glad things are working out for you!")
+    print("Calm down bro!")
 elif mood=="relaxed":
     print("Enjoy a pina colada!")
 else:
