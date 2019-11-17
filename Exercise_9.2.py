@@ -1,0 +1,13 @@
+stevec=int(input("Please enter a number between (including) 1 and 100: "))
+number=0
+
+for number in range (1, stevec+1):
+    if number%3==0 and number%5==0:
+        print ("fizzbuzz")
+    elif number%3==0:
+        print("fizz")
+    elif number%5==0:
+        print ("buzz")
+    else:
+        print (number)
+    number=number+1
